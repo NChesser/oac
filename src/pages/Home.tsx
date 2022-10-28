@@ -2,6 +2,9 @@
     About: Home OAC Page
 */
 
+// Challenges
+import challenges from  '../data/challenges.json'
+
 
 const Home = () => {
 
@@ -11,6 +14,7 @@ const Home = () => {
                 Hello world!
             </h1>
             <p className='text-slate-500'>My Name is Nick</p>
+            {challenges.map(challenge => <p>{challenge.challenge}</p>)}
         </div>
     )
 };
