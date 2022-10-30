@@ -1,7 +1,7 @@
 import './App.css';
 
 // Routing
-import { Routes, Route, Link } from "react-router-dom";
+// import { Routes, Route, Link } from "react-router-dom";
 
 // Components
 import Home from './pages/Home';
@@ -10,7 +10,7 @@ import Home from './pages/Home';
 function App() {
 	return (
 		<div className="App">
-			<header>
+			{/* <header>
 				<div>
 					<h1>
 						OAC
@@ -29,14 +29,15 @@ function App() {
 						</li>
 					</ul>
 				</nav>
-			</header>
+			</header> */}
 
 			<main>
-				<Routes>
+				{/* <Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/challenges' element={<Home />} />
 					<Route path='/completed-challenges' element={<p>Completed Challenges</p>} />
-				</Routes>
+				</Routes> */}
+				<Home />
 			</main>
 		</div>
 	);
