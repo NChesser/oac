@@ -10,7 +10,7 @@ import Home from './pages/Home';
 function App() {
 	return (
 		<div className="App">
-			<header>
+			{/* <header>
 				<div>
 					<h1>
 						OAC
@@ -37,6 +37,9 @@ function App() {
 					<Route path='/challenges' element={<Home />} />
 					<Route path='/completed-challenges' element={<p>Completed Challenges</p>} />
 				</Routes>
+			</main> */}
+			<main>
+				<Home />
 			</main>
 		</div>
 	);
